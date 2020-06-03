@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPI.Controllers.JobController.Getjobs">
+             <summary>
+             Get All the Jobs by the path GET /api/job
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /api/job
+                 
+            
+             </remarks>
+        </member>
+        <member name="M:WebAPI.Controllers.JobController.GetJob(System.Int32)">
+             <summary>
+             Get one job by id with the path GET /api/job/{id}
+             </summary>
+             <param name="idJob"></param>   
+             <remarks>
+             Sample request:
+            
+                 GET /api/job/1
+                 
+            
+             </remarks>
+        </member>
+        <member name="M:WebAPI.Controllers.JobController.PutJobItem(WebAPI.Models.Job)">
+             <summary>
+             Update the Job by the path PUT /api/job/ and the body with a json with the job
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PUT /api/job/
+                 {
+                        "idJob": 1,
+                         "jobName": "Architect test",
+                         "jobTitle": "Data Architect Coordinator",
+                         "jobDescription": "Define The RoadMap of SaonGroup for DB and Analytics - Test",
+                         "createdAt": "2020-06-03",
+                         "expiresAt": "2020-08-02"
+                  }
+            
+             </remarks>
+        </member>
+        <member name="M:WebAPI.Controllers.JobController.CreateJob(WebAPI.Models.Job)">
+             <summary>
+             Create a Job by the path POST /api/job and the json with the job object
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /api/job
+                 {
+                        "idJob": 10,
+                         "jobName": "Architect test",
+                         "jobTitle": "Data Architect Coordinator",
+                         "jobDescription": "Define The RoadMap of SaonGroup for DB and Analytics - Test",
+                         "createdAt": "2020-06-03",
+                         "expiresAt": "2020-08-02"
+                  }
+            
+             </remarks>
+        </member>
+        <member name="M:WebAPI.Controllers.JobController.DeleteJob(System.Int32)">
+             <summary>
+             Delete a Job by the path DELETE /api/job and the json with the job object
+             </summary>
+             <param name="idJob"></param>  
+             <remarks>
+             Sample request:
+            
+                 DELETE /api/job/1
+                 
+            
+             </remarks>
+        </member>
+    </members>
+</doc>
