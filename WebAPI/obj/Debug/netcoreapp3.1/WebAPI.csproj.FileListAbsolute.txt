@@ -1,0 +1,12 @@
+C:\Users\Ikki\Desktop\Desarrollo\Estudiar\.NET\C#\Test\WebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ikki\Desktop\Desarrollo\Estudiar\.NET\C#\Test\WebAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ikki\Desktop\Desarrollo\Estudiar\.NET\C#\Test\WebAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Ikki\Desktop\Desarrollo\Estudiar\.NET\C#\Test\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.exe
+C:\Users\Ikki\Desktop\Desarrollo\Estudiar\.NET\C#\Test\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache
+C:\Users\Ikki\Desktop\Desarrollo\Estudiar\.NET\C#\Test\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
+C:\Users\Ikki\Desktop\Desarrollo\Estudiar\.NET\C#\Test\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
+C:\Users\Ikki\Desktop\Desarrollo\Estudiar\.NET\C#\Test\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Ikki\Desktop\Desarrollo\Estudiar\.NET\C#\Test\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
+C:\Users\Ikki\Desktop\Desarrollo\Estudiar\.NET\C#\Test\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.xml
+C:\Users\Ikki\Desktop\Desarrollo\Estudiar\.NET\C#\Test\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Ikki\Desktop\Desarrollo\Estudiar\.NET\C#\Test\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
