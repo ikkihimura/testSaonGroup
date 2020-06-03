@@ -53,7 +53,7 @@ namespace WebAPI.DAO
         public async Task<long> Update(long id, Job jobItem)
         {
             long jobID = 0;
-            var job = this._ctx.Job.Find((int)id);
+            var job = this._ctx.Job.Find(id);
             if (job != null)
             {
                 job.JobName = jobItem.JobName;
