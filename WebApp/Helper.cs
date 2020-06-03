@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WebApp
 {
-    public class ProductAPI
+    public class JobAPI
     {
         private string _apiBaseURI = "https://localhost:5001";
         public HttpClient InitializeClient()

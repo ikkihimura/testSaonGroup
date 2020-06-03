@@ -1,0 +1,74 @@
+﻿@model WebApp.Models.JobDTO
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<strong>Create</strong>
+
+<form asp-action="Create">
+    <div class="form-horizontal">
+        <strong>Student</strong>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="JobName" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="JobName" class="form-control" />
+                <span asp-validation-for="JobName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="JobTitle" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="JobTitle" class="form-control" />
+                <span asp-validation-for="JobTitle" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="JobDescription" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="JobDescription" class="form-control" />
+                <span asp-validation-for="JobDescription" class="text-danger"></span>
+            </div>
+        </div>
+        <!--<div class="form-group">
+        <label asp-for="CreatedAt" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="CreatedAt" class="form-control"  />
+            <span asp-validation-for="CreatedAt" class="text-danger"></span>
+        </div>
+        </div>-->
+        <div class="form-group">
+            <label asp-for="ExpiresAt" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ExpiresAt" class="form-control" id="datepicker" data-date-format="yyyy-mm-dd"/>
+                <span asp-validation-for="ExpiresAt" class="text-danger"></span>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <link href="~/lib/jqueryui/jquery-ui.css" rel="stylesheet" />
+    <script src="~/lib/jqueryui/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#datepicker").datepicker({ dateFormat: "yy-mm-dd" });
+        });
+    </script>
+}
