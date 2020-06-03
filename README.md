@@ -7,6 +7,10 @@ The project for this test have three inner projects:
 -XUnitTest: The test project for the WebAPI, to use it you have to run first the WebAPI, you can use the command on the project Web API: dotnet run
 
 Note:
-To run both projects (WebAPI, WebApp) you can select on the properties of the solution to run multiple projects, select both project to start. Ensure that you have free the next ports:5000,5001
+To run both projects (WebAPI, WebApp) you can select on the properties of the solution to run multiple projects, select both project to start. Ensure that you have free the next ports:5000,5001.
+
+The sln project is on the WebAPI folder.
+
+best regards,
 
 F.Herbert Rodriguez
