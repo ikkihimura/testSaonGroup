@@ -1,36 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ikki\\Desktop\\Desarrollo\\Estudiar\\.NET\\C#\\Test\\XUnitTest\\XUnitTest.csproj": {}
+    "C:\\Users\\Ikki\\Source\\Repos\\testSaonGroup\\XUnitTest\\XUnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ikki\\Desktop\\Desarrollo\\Estudiar\\.NET\\C#\\Test\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Ikki\\Source\\Repos\\testSaonGroup\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ikki\\Desktop\\Desarrollo\\Estudiar\\.NET\\C#\\Test\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Ikki\\Source\\Repos\\testSaonGroup\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Ikki\\Desktop\\Desarrollo\\Estudiar\\.NET\\C#\\Test\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\Ikki\\Source\\Repos\\testSaonGroup\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Ikki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ikki\\Desktop\\Desarrollo\\Estudiar\\.NET\\C#\\Test\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Ikki\\Source\\Repos\\testSaonGroup\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Ikki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
@@ -62,14 +64,15 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.31, 3.1.31]"
             }
           ],
           "frameworkReferences": {
@@ -80,40 +83,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Ikki\\Desktop\\Desarrollo\\Estudiar\\.NET\\C#\\Test\\XUnitTest\\XUnitTest.csproj": {
+    "C:\\Users\\Ikki\\Source\\Repos\\testSaonGroup\\XUnitTest\\XUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ikki\\Desktop\\Desarrollo\\Estudiar\\.NET\\C#\\Test\\XUnitTest\\XUnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\Ikki\\Source\\Repos\\testSaonGroup\\XUnitTest\\XUnitTest.csproj",
         "projectName": "XUnitTest",
-        "projectPath": "C:\\Users\\Ikki\\Desktop\\Desarrollo\\Estudiar\\.NET\\C#\\Test\\XUnitTest\\XUnitTest.csproj",
+        "projectPath": "C:\\Users\\Ikki\\Source\\Repos\\testSaonGroup\\XUnitTest\\XUnitTest.csproj",
         "packagesPath": "C:\\Users\\Ikki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ikki\\Desktop\\Desarrollo\\Estudiar\\.NET\\C#\\Test\\XUnitTest\\obj\\",
+        "outputPath": "C:\\Users\\Ikki\\Source\\Repos\\testSaonGroup\\XUnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Ikki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Ikki\\Desktop\\Desarrollo\\Estudiar\\.NET\\C#\\Test\\WebAPI\\WebAPI.csproj": {
-                "projectPath": "C:\\Users\\Ikki\\Desktop\\Desarrollo\\Estudiar\\.NET\\C#\\Test\\WebAPI\\WebAPI.csproj"
+              "C:\\Users\\Ikki\\Source\\Repos\\testSaonGroup\\WebAPI\\WebAPI.csproj": {
+                "projectPath": "C:\\Users\\Ikki\\Source\\Repos\\testSaonGroup\\WebAPI\\WebAPI.csproj"
               }
             }
           }
@@ -126,6 +130,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.TestHost": {
               "target": "Package",
@@ -154,25 +159,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
