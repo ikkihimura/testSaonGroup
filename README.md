@@ -14,3 +14,5 @@ The sln project is on the WebAPI folder.
 best regards,
 
 F.Herbert Rodriguez
+
+kind regards
